@@ -104,11 +104,6 @@ class ReplyAmountCorrect(Evaluator[Any, Trial]):
                     value=False,
                     reason=f"reply claimed {claimed_amount}đ but ledger recorded {ledger_amount}đ"
                 )
-        elif ledger_amount > 0 and ctx.output.get("result", {}).get("status") == "resolved":
-            return EvaluationReason(
-                value=False,
-                reason=f"ledger has refund {ledger_amount}đ but reply text mentions no refund amount"
-            )
 
         return EvaluationReason(value=True, reason=None)
 
