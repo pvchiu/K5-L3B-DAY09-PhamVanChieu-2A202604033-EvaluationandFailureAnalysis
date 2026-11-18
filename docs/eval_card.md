@@ -2,10 +2,10 @@
 
 Card này đi kèm mỗi báo cáo và được dùng lại ở Day 10.
 
-- **Run ID / eval set SHA:** Baseline v1 `E-swarm-20261118-de06` (SHA `de0607d4f3ba`) · Baseline v2 `E-swarm-20261118-5bf1` (SHA `5bf1685efefb`)
+- **Run ID / eval set SHA:** Baseline v1 `E-swarm-20261118-c981` (SHA `c9811905584f`) · Baseline v2 `E-swarm-20261118-3c9c` (SHA `3c9ceddc9326`)
 - **Phiên bản:**
   - Code commit: `main` (Day 8 swarm reference + Day 9 harness)
-  - Eval set: v1 (SHA `de0607d4f3ba`) / v2 (SHA `5bf1685efefb`)
+  - Eval set: v1 (SHA `c9811905584f`) / v2 (SHA `3c9ceddc9326`)
   - Metric spec: v1.0 (`config/metric_spec.yaml`) / v2.0 (`config/metric_spec_v2.yaml`)
   - Seeds: [11, 22, 33, 44, 55]
 - **Eval set:** v1 gồm 14 item × 5 seed (70 cases); v2 gồm 28 item × 5 seed (140 cases) kết hợp adversarial pack (`adversarial_v2.json`); nhãn tách rời: `labels_v1.json` và `labels_v2.json`.
